@@ -37,7 +37,7 @@ import "github.com/keitaro1020/go-japanmesh"
 		Longitude: 139.71475,
 	}, japanmesh.Level3)
 	fmt.Println(code)
-    "53394547"
+	// => "53394547"
 ```
 
 ### japanmesh.ToGeoJSON(code[, properties])
@@ -73,7 +73,7 @@ import "github.com/keitaro1020/go-japanmesh"
 ```go
 	level, _ := japanmesh.GetLevel("53394547")
 	fmt.Println(level)
-    // => 3
+	// => 3
 ```
 
 ### japanmesh.GetCodes(code)
@@ -82,7 +82,7 @@ import "github.com/keitaro1020/go-japanmesh"
 ```go
 	codes, _ := japanmesh.GetCodes("53394547")
 	fmt.Println(codes)
-    // => [533945471 533945472 533945473 533945474]
+	// => [533945471 533945472 533945473 533945474]
 ```
 
 ## Author
